@@ -138,6 +138,9 @@ nav ul{
 
 /* large device e.g desktop, PCs */
 @media (min-width: 779px){
+    body{
+        margin: 0 10%;
+    }
     nav{
         width: 100%;
         display: flex;
@@ -148,7 +151,7 @@ nav ul{
     nav ul{
         display: flex;
         justify-content: space-between;
-        width: 60%;
+        width: 50%;
     }
     .nav-link a{
         color: var(--dark-grayish-blue);
@@ -189,7 +192,7 @@ nav ul{
         width: 47%;
     }
     .bright{
-        font-size: 2.5rem;
+        font-size: 3.2rem;
     }
     footer{
         display: flex;

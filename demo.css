@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+
+/* media query */
+
+/* small devices */
+@media (max-width: 600px){
+    body{
+        background-color: red;
+    }
+
+
+
+}
+
+/* medium devices i.e tablets  768px and up*/
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        background-color: blue;
+    }
+
+}
+
+/* Desktop first */
+/* Mobile first */
